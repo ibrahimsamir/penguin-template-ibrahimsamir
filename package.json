@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "penguin serve",
+    "build": "penguin pack && penguin build"
+  },
+  "penguin": {
+    "languages": ["de"],
+    "components": {
+      "Inplace": "penguin.js/inplace",
+      "Link": "penguin.js/link",
+      "SaveButton": "penguin.js/save_button",
+      "SavedIndicator": "penguin.js/saved_indicator"
+    }
+  },
+  "dependencies": {
+    "penguin.js": "^0.7.1"
+  }
+}

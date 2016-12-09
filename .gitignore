@@ -1,0 +1,5 @@
+/node_modules/*
+/components.js
+/server_components.js
+/npm-debug.log
+/static/client.js
