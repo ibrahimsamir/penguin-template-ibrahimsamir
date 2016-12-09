@@ -5,26 +5,52 @@
         <meta charset="utf-8">
         <title>Variant HTML Builder by Medium Rare</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/static/css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="/static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="/static/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="/static/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="/static/css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="/static/css/theme.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="/static/css/custom.css" rel="stylesheet" type="text/css" media="all" />
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+        <link href="../static/css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="../static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="../static/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="../static/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="../static/css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="../static/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="../static/css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
     </head>
     <body>
 
-		<div class="nav-container">
-		</div>
+      <div class="nav-container">
+        <nav>
+            <div class="nav-bar">
+                <div class="module left">
+                    <a href="index.html">
+                        <img class="logo logo-light" alt="Foundry" src="../static/img/logo-light.png">
+                        <img class="logo logo-dark" alt="Foundry" src="../static/img/logo-dark.png">
+                    </a>
+                </div>
+                <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                    <i class="ti-menu"></i>
+                </div>
+                <div class="module-group right">
+                    <div class="module left">
+                        <ul class="menu">
+                            <li>
+                                <a href="#home" class="inner-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="inner-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </div>
 
 		<div class="main-container">
-		<section class="image-slider slider-all-controls controls-inside parallax pt0 pb0 height-70">
+		<section id="home" class="image-slider slider-all-controls controls-inside parallax pt0 pb0 height-70">
 		        <ul class="slides">
 		            <li class="overlay image-bg">
 		                <div class="background-image-holder">
-		                    <img alt="image" class="background-image" src="/static/img/home-2-8.jpg">
+		                    <img alt="image" class="background-image" src="../static/img/home-2-8.jpg">
 		                </div>
 		                <div class="container v-align-transform">
 		                    <div class="row text-center">
@@ -43,12 +69,13 @@
 
 		            </li>
 		        </ul>
-		    </section><section>
+		    </section>
+        <section>
 		        <div class="container">
 		            <div class="row">
 		                <div class="col-sm-4">
 		                    <h2 class="number">2008</h2>
-		                    <p>
+		                    <p data-component='Inplace' data-props='{"field":"test"}'>
 		                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
 		                    </p>
 		                </div>
@@ -68,7 +95,8 @@
 
 		        </div>
 
-		    </section><section>
+		    </section>
+        <section>
 		        <div class="container">
 		            <div class="row v-align-children">
 		                <div class="col-md-4 col-sm-5 mb-xs-24">
@@ -78,13 +106,14 @@
 		                    </p>
 		                </div>
 		                <div class="col-md-7 col-md-offset-1 col-sm-6 col-sm-offset-1 text-center">
-		                    <img class="cast-shadow" alt="Screenshot" src="/static/img/screenshot2.jpg">
+		                    <img class="cast-shadow" alt="Screenshot" src="../static/img/screenshot2.jpg">
 		                </div>
 		            </div>
 
 		        </div>
 
-		    </section><section class="bg-primary">
+		    </section>
+        <section class="bg-primary">
 		        <div class="container">
 		            <div class="row">
 		                <div class="col-sm-12 text-center">
@@ -95,7 +124,8 @@
 
 		        </div>
 
-		    </section><section>
+		    </section>
+        <section id="contact">
 		        <div class="container">
 		            <div class="row">
 		                <div class="col-sm-6 col-md-5">
@@ -132,17 +162,17 @@
 		    </section></div>
 
 
-	<script src="/static/js/jquery.min.js"></script>
-        <script src="/static/js/bootstrap.min.js"></script>
-        <script src="/static/js/flexslider.min.js"></script>
-        <script src="/static/js/lightbox.min.js"></script>
-        <script src="/static/js/masonry.min.js"></script>
-        <script src="/static/js/twitterfetcher.min.js"></script>
-        <script src="/static/js/spectragram.min.js"></script>
-        <script src="/static/js/ytplayer.min.js"></script>
-        <script src="/static/js/countdown.min.js"></script>
-        <script src="/static/js/smooth-scroll.min.js"></script>
-        <script src="/static/js/parallax.js"></script>
-        <script src="/static/js/scripts.js"></script>
+      	<script src="../static/js/jquery.min.js"></script>
+        <script src="../static/js/bootstrap.min.js"></script>
+        <script src="../static/js/flexslider.min.js"></script>
+        <script src="../static/js/lightbox.min.js"></script>
+        <script src="../static/js/masonry.min.js"></script>
+        <script src="../static/js/twitterfetcher.min.js"></script>
+        <script src="../static/js/spectragram.min.js"></script>
+        <script src="../static/js/ytplayer.min.js"></script>
+        <script src="../static/js/countdown.min.js"></script>
+        <script src="../static/js/smooth-scroll.min.js"></script>
+        <script src="../static/js/parallax.js"></script>
+        <script src="../static/js/scripts.js"></script>
     </body>
 </html>

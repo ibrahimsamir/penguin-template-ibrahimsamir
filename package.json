@@ -4,7 +4,9 @@
     "build": "penguin pack && penguin build"
   },
   "penguin": {
-    "languages": ["de"],
+    "languages": [
+      "de"
+    ],
     "components": {
       "Inplace": "penguin.js/inplace",
       "Link": "penguin.js/link",
